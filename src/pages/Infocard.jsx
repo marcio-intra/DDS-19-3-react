@@ -7,7 +7,7 @@ const InfoCard = () => {
     console.log("o id:", id);
 
     const VoltarHome = () => {
-        navigate("/home")
+        navigate("/sobre")
     }
     return (
         <div style={{display: "flex", flexDirection: "column-reverse"}}>
